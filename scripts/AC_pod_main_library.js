@@ -14,9 +14,9 @@ function checkIfParentIsApproved() {
     if (statuscode == '8' || statuscode == '6') {
         disableFormFields(true);
 
-        if (IsCurrentUserInRole('System Administrator') || IsCurrentUserInRole('Business Administrator')) {
-            disableFormFields(false);
-        }
+        //if (IsCurrentUserInRole('System Administrator') || IsCurrentUserInRole('Business Administrator')) {
+        //    disableFormFields(false);
+       // }
     }
 }
 
